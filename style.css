@@ -1,0 +1,23 @@
+.conteiner{
+   
+    display: flex;
+    box-sizing: border-box;
+
+    text-align: center;
+ 
+}
+.box{
+    display: inline-block;
+    background-color: aqua;
+    color: green;
+    width: 120px;
+    height: 120px;
+    margin: 4px;
+    
+}
+
+.box:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
